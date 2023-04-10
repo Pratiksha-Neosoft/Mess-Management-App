@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allback"
+    tools:context="com.myProject.hostel.messApp.Scan">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="@string/qr_code_scanner"
+        android:textColor="@color/dark"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:background="@color/success"
+        android:text="@string/scan"
+        android:textColor="@color/light" />
+
+    <TextView
+        android:id="@+id/date_scan"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:text="@string/select_date"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/editText_scan"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/mealType"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+</RelativeLayout>

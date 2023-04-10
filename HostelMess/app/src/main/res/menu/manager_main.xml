@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:title="Profile"
+            android:id="@+id/id_profile"
+            android:orderInCategory="100"
+            android:showAsAction="never"
+            />
+        <item android:title="Complaints"
+            android:id="@+id/id_Comp"
+            android:orderInCategory="101"
+            android:showAsAction="never"
+            />
+        <item android:title="Feedback"
+            android:id="@+id/id_feedback"
+            android:orderInCategory="102"
+            android:showAsAction="never"
+            />
+        <item android:title="Add Expense"
+            android:id="@+id/id_exp"
+            android:orderInCategory="103"
+            android:showAsAction="never"
+            />
+        <item android:title="All Expense"
+            android:id="@+id/id_allexp"
+            android:orderInCategory="103"
+            android:showAsAction="never"
+            />
+        <item android:title="Scan"
+            android:id="@+id/id_scan"
+            android:orderInCategory="103"
+            android:showAsAction="never"
+            />
+<!--        <item android:title="Verify"-->
+<!--            android:id="@+id/id_verify"-->
+<!--            android:orderInCategory="103"-->
+<!--            android:showAsAction="never"-->
+<!--            />-->
+        <item
+            android:id="@+id/id_activity"
+            android:orderInCategory="103"
+            android:showAsAction="never"
+            android:title="Student Activity" />
+</menu>

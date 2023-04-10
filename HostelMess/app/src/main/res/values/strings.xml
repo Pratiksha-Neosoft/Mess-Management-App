@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Student Mess</string>
+    <string name="reject">Reject</string>
+    <string name="accept">Accept</string>
+    <string name="student_regn">Student Registration Number : </string>
+    <string name="student_room">Student Room Number : </string>
+    <string name="student_hostel">Student Hostel Name : </string>
+    <string name="student_name">Student Name : </string>
+    <string name="confirmText">Confirm Request</string>
+    <string name="profile">Profile</string>
+    <string name="enter_student_registration_number">Enter Student Registration Number</string>
+    <string name="search_student_by_registration_number">Search Student by Registration Number</string>
+    <string name="show_profile">Show Profile</string>
+    <string name="users">Users</string>
+    <string name="date">DATE</string>
+    <string name="meal">Meal..</string>
+    <string name="submit">SUBMIT</string>
+    <string name="ratings">Ratings</string>
+    <string name="value">Value :-</string>
+    <string name="rating">rating</string>
+    <string name="feedback">Feedback..</string>
+    <string name="feedbackTitle">Feedback</string>
+    <string name="feedbacks">Feedbacks</string>
+    <string name="qr_code">QR Code</string>
+    <string name="qr">qr</string>
+    <string name="scanner">scanner</string>
+    <string name="qr_code_scanner">QR Code Scanner</string>
+    <string name="scan">Scan</string>
+    <string name="mealType">Select Meal Type</string>
+    <string name="select_date">Select Date</string>
+    <string name="meal_dropdown">meal_dropdown</string>
+    <string name="trackTitle">Track Student Activity</string>
+    <string name="updateMenu">Update Menu</string>
+
+</resources>

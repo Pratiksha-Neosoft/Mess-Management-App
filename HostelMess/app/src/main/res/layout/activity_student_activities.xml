@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:background="@drawable/allback"
+    tools:context="com.myProject.hostel.messApp.StudentActivities">
+
+
+    <TextView
+        android:id="@+id/totalMeals"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:text="Total Meals Taken:"
+        android:textColor="@color/dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/balance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:text="Balance:"
+        android:textColor="@color/dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/studentNa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalMeals"
+        app:layout_constraintVertical_bias="0.5" />
+
+
+    <TextView
+        android:id="@+id/choosedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Date"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/showActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/expectedRef"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/showActivity"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@color/success"
+        android:text="Show activity"
+        android:textColor="@color/light"
+        app:layout_constraintBottom_toTopOf="@+id/breakFast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choosedate"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/breakFast"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:contentDescription="breakfast"
+        android:text=" "
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/lunch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showActivity"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/lunch"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+
+        android:contentDescription="lunch"
+        android:text=" "
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/snacks"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/breakFast"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/snacks"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+
+        android:contentDescription="sancks"
+        android:text=" "
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/dinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lunch"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/dinner"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:contentDescription="dinner"
+        android:text=" "
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/snacks"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/studentNa"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:text="Student Name:"
+        android:textColor="@color/dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/studentReg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/balance"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/studentReg"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:text="Student Registration Number:"
+        android:textColor="@color/dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/expectedRef"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/studentNa"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/expectedRef"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:text="Expected Refund:"
+        android:textColor="@color/dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/trackTitle"
+        android:textColor="@color/primary"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/totalMeals"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+
+</android.support.constraint.ConstraintLayout>

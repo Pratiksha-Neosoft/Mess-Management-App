@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allback"
+    android:padding="10dp"
+    tools:context="com.myProject.hostel.messApp.AdminProfile">
+
+    <TextView
+        android:id="@+id/totalAmount"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="97dp"
+        android:text="Total Amount Collected"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/totalStudent"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/totalAmount"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:text="Total Students"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/totalSpent"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/totalStudent"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:text="Total Amount Spent"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/month"
+        android:layout_width="220sp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/totalSpent"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Enter month Number(1-12)"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/showBtn"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/month"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/info"
+        android:padding="10dp"
+        android:text="Show Monthly Expense"
+        android:textColor="#455A64" />
+
+    <TextView
+        android:id="@+id/monthExp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/month"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="101dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/monthExpShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/monthExp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="16dp"
+        android:background="#0fedeba6"
+        android:contentDescription="Expenses" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="177dp"
+        android:text="@string/profile"
+        android:textColor="@color/primary"
+        android:textSize="32sp" />
+
+</RelativeLayout>

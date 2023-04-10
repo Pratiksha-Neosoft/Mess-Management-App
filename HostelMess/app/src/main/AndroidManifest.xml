@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myProject.hostel.messApp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.myProject.hostel.messApp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.myProject.hostel.messApp.StudentHome" />
+        <activity android:name="com.myProject.hostel.messApp.StudentLogin" />
+        <activity android:name="com.myProject.hostel.messApp.StudentSignUp" />
+        <activity android:name="com.myProject.hostel.messApp.ManagerHome" />
+        <activity android:name="com.myProject.hostel.messApp.AddMeal" />
+        <activity android:name="com.myProject.hostel.messApp.StudentActivities" />
+        <activity android:name="com.myProject.hostel.messApp.FeedBack" />
+        <activity android:name="com.myProject.hostel.messApp.Complaint" />
+        <activity android:name="com.myProject.hostel.messApp.AdminVerify" />
+        <activity android:name="com.myProject.hostel.messApp.AdminConfirm" />
+        <activity android:name="com.myProject.hostel.messApp.QRCode" />
+        <activity android:name="com.myProject.hostel.messApp.Scan" />
+        <activity android:name="com.myProject.hostel.messApp.AdminStudentActivity" />
+        <activity android:name="com.myProject.hostel.messApp.AdminProfile" />
+        <activity android:name="com.myProject.hostel.messApp.AddExpense" />
+        <activity android:name="com.myProject.hostel.messApp.AdminAllExpenses" />
+
+        <service android:name="com.myProject.hostel.messApp.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.myProject.hostel.messApp.MyFirebaseMessagingServices">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.myProject.hostel.messApp.UpdateMealActivity" />
+        <activity android:name="com.myProject.hostel.messApp.FeedbackAdmin" />
+        <activity android:name="com.myProject.hostel.messApp.AdminCompalinds" />
+        <activity android:name="com.myProject.hostel.messApp.AdminLogin"></activity>
+    </application>
+
+</manifest>
